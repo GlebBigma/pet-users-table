@@ -1,0 +1,47 @@
+$table-background: #f9f9f9;
+$table-border-color: #ddd;
+$header-background: #4caf50;
+$header-text-color: #fff;
+$odd-row-background: #f2f2f2;
+$search-input-background: #fff;
+$search-input-border: #ccc;
+$loading-text-color: #555;
+$error-text-color: red;
+
+.styled-table {
+  border-collapse: collapse;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid $table-border-color;
+}
+
+.header-cell {
+  position: relative;
+}
+
+.search-container {
+  margin-top: 8px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid $search-input-border;
+  border-radius: 4px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: $loading-text-color;
+}
+
+.error {
+  text-align: center;
+  font-size: 18px;
+  color: $error-text-color;
+}
